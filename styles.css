@@ -1,0 +1,179 @@
+header{
+    background-color: #32E0C4;
+    color: #222831;
+    font-weight:900px;
+    font-size: x-large;
+    font-style: oblique;
+    padding: 0.01%;
+    margin: 0;
+}
+
+body{
+    background-color: #222831 ;
+    font-family: Arial, Helvetica, sans-serif;    
+    align-items: center;
+    padding: 0px;
+    margin: 0;
+}
+
+.uno{
+    position: relative;
+    background-color: #222831;
+    margin-top: 100px;
+    border-radius: 10px;
+    height: 300px;
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 15px 25px
+    rgba(0,0,0,0.50);
+}
+
+.uno .caja-cara{
+    height: 284px;
+    width: 200px;
+    float: left;
+    padding: 8px;
+    background-color: #393E46;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;  
+}
+
+.uno #foto{
+    margin-top: 70px;
+    margin-left: 35px;
+    align-self: center;
+    max-width: 130px;
+    max-height: 130px;
+    border-radius: 50%;
+}
+
+.uno .caja-presentacion{
+    height: 280px;
+    width: 364px;
+    float: right;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 10px;
+    background-color: #EEEEEE;
+    overflow: hidden;
+    transition: all 500ms ease;
+    margin-bottom: 40px;
+    z-index: 0;
+    font-weight: 700;
+    cursor:pointer;
+}
+
+.uno .caja-presentacion::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    margin: auto;
+    background-color: #20e2d7;
+    transition: all 500ms ease;
+    z-index: -1;
+  }
+
+.uno .caja-presentacion:hover {
+    background-color: #20e2d7;
+    box-shadow: 0 0 10px #20e2d7, 0 0 20px #20e2d7, 0 0 20px #20e2d7;
+    color: #434343;
+}
+
+.presentacion{
+    
+    font-size: small;
+    font-weight: 100;
+    text-align: justify;
+}
+
+.dos{
+    margin-top: 100px;
+    padding: 20px;
+    background-color: #EEEEEE;
+}
+
+.tres{
+    color: white;
+    margin-bottom: 100px;
+    margin: 0;
+    text-align: center;
+    overflow: hidden;
+    transition: all 500ms ease;
+    z-index: 0;
+    font-weight: 700;
+}
+
+.tres:hover{
+    background-color: #20e2d7;
+    box-shadow: 0 0 10px #20e2d7, 0 0 20px #20e2d7, 0 0 20px #20e2d7;
+    color: #222831;
+
+}
+
+.cajacontenido{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.contenido{
+    width: 600px;
+    text-align: justify;
+    font-size: small;
+}
+
+.contenidoCentrado{
+    text-align: center;
+    font-size: small;
+}
+
+.encabezado{
+    text-align: center;
+}
+
+.tecnologias{
+    overflow: hidden; 
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;   
+}
+
+.item {
+    float: left;
+    width: 100px; 
+    height: 100px; 
+}
+
+footer{
+    color: white;
+    background-color: #393E46;
+    padding: 0.01%;
+    margin: 0;
+    text-align: center;
+}
+
+.contacto{
+    display: flex;
+    justify-content: center;
+}
+
+.tamanio{
+    width: 50px;
+    height: 50px;
+    padding:30px;
+}
+
+.tamanioIcono{
+    border: double;
+    border-color: grey;
+    box-shadow: 0 15px 25px
+    rgba(0,0,0,0.50);
+}
+
+.tamanioIcono:hover{
+    box-shadow: 0 0 10px #20e2d7, 0 0 20px #20e2d7, 0 0 20px #20e2d7;
+}
